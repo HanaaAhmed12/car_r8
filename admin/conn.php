@@ -1,21 +1,7 @@
 <?php
-//  $servername = "localhost";
-//  $username = "root";
-//  $password = "";
-//  try {
-//     $options=array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8');
-//         $conn = new PDO("mysql:host=$servername;dbname=cars_r8", $username, $password , $options);
-//         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-//         // echo "Connected successfully";
-//     } catch(PDOException $e) {
-//         echo "Connection failed: " . $e->getMessage();
-//  }
-
-
-
- $servername = "sql304.ezyro.com";
- $username = "	ezyro_35931078";
- $password = "e3990e642c805";
+ $servername = "localhost";
+ $username = "root";
+ $password = "";
  try {
     $options=array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8');
         $conn = new PDO("mysql:host=$servername;dbname=cars_r8", $username, $password , $options);
@@ -24,4 +10,8 @@
     } catch(PDOException $e) {
         echo "Connection failed: " . $e->getMessage();
  }
+
+
+
+
 ?>
